@@ -1,0 +1,6 @@
+{
+  "name": "DocuStruct AI: Industrial Digitizer",
+  "description": "A high-performance industrial digitization hub that converts handwritten logs, equipment nameplates, and technical PDFs into structured Excel databases. Powered by Gemini 3 Flash, it automates extraction into a 44-column engineering taxonomy with specialized row expansion for R-Y-B electrical phases.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": []
+}

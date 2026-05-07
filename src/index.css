@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary: #0f172a;
+  --color-accent: #2563eb;
+  --color-success: #10b981;
+  --color-app-bg: #f1f5f9;
+  --color-sidebar-bg: #ffffff;
+  --color-border-base: #e2e8f0;
+  --color-text-main: #1e293b;
+  --color-text-muted: #64748b;
+}
+
+@layer base {
+  body {
+    @apply bg-app-bg text-text-main font-sans;
+  }
+}
+
+/* Custom design patterns from shared theme */
+.nav-item-active {
+  @apply bg-[#f8fafc] text-accent border-l-3 border-accent font-medium;
+}
+
+.status-done {
+  @apply bg-[#dcfce7] text-[#166534];
+}
+
+.status-pending {
+  @apply bg-[#fef9c3] text-[#854d0e];
+}
